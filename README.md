@@ -12,7 +12,7 @@ A página apresenta os cartazes de três filmes de destaque — O Tempo com Voc�
 
 ## Apaência do site:
 
-* **Acesse o site para ver o projeto funcionando**: [Cinema Vai na Web]([https://brunocorrea.github.io/Cinema_Vai_na_Web/](https://brun1oo.github.io/Cinema_Vai_na_web/))
+* **Acesse o site para ver o projeto**: [Cinema Vai na Web](https://brun1oo.github.io/Cinema-Vai-na-web/)
 
 (<img width="851" height="685" alt="Captura de tela 2025-09-29 192645" src="https://github.com/user-attachments/assets/53749b43-bee9-4493-82d9-fc52b0b4bdd6" />)
 
