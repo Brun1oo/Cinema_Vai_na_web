@@ -1,0 +1,111 @@
+// Seletor{propriedade:valor;}
+
+// * é o seletor global
+*{
+    margin: 0;
+    // Espaçamento externo das tags
+    padding: 0;
+    // Espaçamento interno das tags
+    box-sizing: border-box;
+    // Faz o calculo correto dos tamanhos dos elementos
+}
+
+header{
+    background-color: #b7d5e5;
+    // Muda a cor de fundo do cabeçalho
+    text-align: center;
+    // Deixa o texto no meio 
+    padding: 10px;
+    // Coloca 'borda'
+    font-family: 'Quicksand';
+    margin-bottom: 30px;
+
+    ul{
+      padding: 0;
+      margin: 0;
+      display: flex;
+      // Organiza os itens lado a lado 
+      justify-content: center;
+      // Deixa os itens no meio 
+      list-style: none;
+      // Tira os pontos da lista
+      gap: 20px;
+      // Da um espaço entre eles 
+    }
+}
+
+a{
+    text-decoration: none;
+    // Retirei o sublinhado da tag a 
+    color: rgb(8, 0, 0);
+}
+
+body{
+  background-color: #F8FDFF;
+}
+
+
+main{
+  display: flex; 
+  // Organiza em linha
+  justify-content: center;
+  // Centraliza os cards no eixo horizontal (no meio da tela)
+  gap: 20px;
+  // Adiciona um espaço entre os cards
+  flex-wrap: wrap;
+  // Faz com que os cards quebram de linha quando a tela nao tiver mais espaço
+
+  .card{
+    background-color: #faebd7ce;
+    //Coloca cor de fundo nos cards
+    text-align: center;
+    // Centraliza o conteudo textual do card 
+    width: 250px;
+    // Define uma largura fixa para todos os cards
+    padding: 10px;
+    // Define uma margem interna 
+    border-radius: 10px;
+    // Arredonda levemente os cantos
+    font-family: 'Raleway';
+    // Para definir uma fonte de texto
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    // Para deixar o card com uma sombra
+
+    img{
+      width: 100%;
+      border-radius: 6px;
+    }
+
+  }
+
+}
+
+// .class - seletor 
+.titulo{
+    color: rgba(19, 7, 7, 0.452);
+}
+
+button{
+  border-radius: 20px;
+  // Para arredondar as bordas
+  border: 2px solid #61A5C2;
+  // Para definir a borda
+  background-color: transparent;
+  // Para deixar transparente o fundo do botão
+  padding: 8px 15px;
+  // Para margem interna
+  text-decoration: none;
+  // Para deixar o texto limpo
+}
+
+
+footer{
+  background-color: #b7d5e5;
+  // Cor do rodape
+  padding: 20px 0px;
+  // Para definir borda interna e deixar as letras no meio
+  margin-top: 40px;
+  // Margem do topo
+  text-align: center;
+  // Para deixar o texto no centralizado
+}
